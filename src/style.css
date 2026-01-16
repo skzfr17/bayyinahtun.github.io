@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+.section {@apply py-20 px-6 max-w-5xl mx-auto;}
+.title {@apply text-3xl font-bold mb-6;}
+.btn {@apply inline-block bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600;}
+.link {@apply text-sky-600 hover:underline;}
+.tool {@apply w-16 hover:scale-110 transition;}
+.bar {@apply w-full bg-gray-200 rounded h-3 mb-3;}
+.fill {@apply bg-sky-500 h-3 rounded;}
+.gallery {@apply rounded shadow hover:scale-105 transition;}
