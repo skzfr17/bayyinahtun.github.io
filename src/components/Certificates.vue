@@ -9,8 +9,6 @@
 
       <!-- Cards -->
       <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-
-        <!-- Certificate Card -->
         <div
           v-for="(cert, index) in certificates"
           :key="index"
@@ -18,11 +16,7 @@
           :style="{ transitionDelay: `${index * 120}ms` }"
           v-intersect
         >
-          <a
-            :href="cert.link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a :href="cert.link" target="_blank" rel="noopener noreferrer">
             <img
               :src="cert.image"
               :alt="cert.title"
@@ -39,48 +33,56 @@
             </p>
           </div>
         </div>
-
       </div>
+
     </div>
   </section>
 </template>
 
 <script setup>
+/* ===== IMPORT ASSETS (WAJIB UNTUK VITE) ===== */
+import sertifikat1 from '@/assets/posters/sertifikat_1.png'
+import sertifikat2 from '@/assets/posters/sertifikat_2.png'
+import sertifikat3 from '@/assets/posters/sertifikat_3.png'
+import sertifikat4 from '@/assets/posters/sertifikat_4.png'
+import sertifikat5 from '@/assets/posters/sertifikat_5.png'
+import sertifikat7 from '@/assets/posters/sertifikat_7.png'
+
 const certificates = [
   {
     title: 'MySkill Short Class Microsoft Excel: VLOOKUP & HLOOKUP',
     year: '2024',
-    image: '/src/assets/posters/sertifikat_7.png',
+    image: sertifikat7,
     link: 'https://drive.google.com/file/d/1x54qeXH4l-b0cMDH33uyJ6K4FouRV7cV/view?usp=sharing'
   },
   {
     title: 'Dicoding Academy: Belajar Dasar Data Science',
     year: '2024',
-    image: '/src/assets/posters/sertifikat_1.png',
+    image: sertifikat1,
     link: 'https://drive.google.com/file/d/1g6mJmOPaFPkx7S8yLD75gODZq-GaCkib/view?usp=drive_link'
   },
   {
     title: 'Dicoding Academy: Belajar Dasar AI',
     year: '2024',
-    image: '/src/assets/posters/sertifikat_2.png',
+    image: sertifikat2,
     link: 'https://drive.google.com/file/d/1QnxXlkIRZj50VPUBFtwmjcYlrXJq-uEB/view?usp=sharing'
   },
   {
     title: 'Dicoding x avpn: AI Praktis untuk Produktivitas',
     year: '2025',
-    image: '/src/assets/posters/sertifikat_3.png',
+    image: sertifikat3,
     link: 'https://drive.google.com/file/d/1xDMUCTrDl53a1bOu0-3gBwfuPx_ZmOPR/view?usp=sharing'
   },
   {
     title: 'Dicoding x avpn: Belajar Penggunaan Generative AI',
     year: '2025',
-    image: '/src/assets/posters/sertifikat_4.png',
+    image: sertifikat4,
     link: 'https://drive.google.com/file/d/1UJSewkkMsU7IY5KlX1qX-xdl-FOFfbSU/view?usp=sharing'
   },
   {
     title: 'Forum Ekonomi Sulawesi Tenggara oleh Bank Indonesia',
     year: '2025',
-    image: '/src/assets/posters/sertifikat_5.png',
+    image: sertifikat5,
     link: 'https://drive.google.com/file/d/1Qqgh_ItHtDQFHiLXZ9GIVwZT0mRaD0Kh/view?usp=sharing'
   }
 ]
@@ -109,9 +111,6 @@ export default {
 </script>
 
 <style scoped>
-/* =========================
-   CARD STYLE
-========================= */
 .certificate-card {
   background: #ffffff;
   border-radius: 1rem;
@@ -124,7 +123,6 @@ export default {
     opacity 0.5s ease;
 }
 
-/* Neon hover */
 .certificate-card:hover {
   transform: translateY(-6px);
   border-color: #3b82f6;
@@ -145,9 +143,6 @@ export default {
   transform: scale(1.025);
 }
 
-/* =========================
-   STAGGER SCROLL ANIMATION
-========================= */
 .hidden-card {
   opacity: 0;
   transform: translateY(40px);
