@@ -13,7 +13,7 @@
         <div v-intersect class="lg:w-1/2 fade-up">
           <h2 class="section-title">Tentang Saya</h2>
           <p class="section-text">
-            Halo! Saya Bayyinahtun Dwi Sumatri, seorang Mahasiswa Ilmu Komputer. Saya tertarik pada analisis data,
+            Halo! Saya Bayyinahtun Dwi Sumatri, seorang Fresh graduate Ilmu Komputer. Saya tertarik pada analisis data,
             pengembangan sistem berbasis AI, serta membangun solusi yang berdampak.
             Saya senang belajar dan mengembangkan skill melalui proyek nyata.
           </p>
@@ -39,7 +39,7 @@
               <span class="timeline-dot"></span>
               <h3 class="timeline-title">Universitas Halu Oleo</h3>
               <p class="timeline-text">
-                2022 – Sekarang | S1 Ilmu Komputer
+                2022 – 2026 | S1 Ilmu Komputer
               </p>
             </div>
           </div>
