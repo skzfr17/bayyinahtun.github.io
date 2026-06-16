@@ -75,6 +75,12 @@ export default {
           description:
             'Analisis data penjualan yang bertujuan untuk memahami pola transaksi, perilaku pelanggan, performa produk, serta distribusi penjual menggunakan beberapa dataset yang saling terhubung.',
           github: 'https://github.com/skzfr17/sales-data-analysis/tree/main'
+        },
+        {
+          title: 'Document Question Answering using Multimodal RAG',
+          description:
+            'Aplikasi berbasis Streamlit yang mengimplementasikan Retrieval-Augmented Generation (RAG) untuk menjawab pertanyaan berdasarkan dokumen. Proyek ini menggunakan LlamaParse Cloud untuk parsing dokumen, Groq sebagai Large Language Model (LLM), dan Chroma sebagai vector store untuk proses retrieval.',
+          github: 'https://github.com/skzfr17/multimodal-rag'
         }
       ]
     }
