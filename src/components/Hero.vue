@@ -35,7 +35,7 @@
           Bayyinahtun Dwi Sumatri
         </h1>
         <p class="text-3xl text-white font-medium mb-6">
-          Mahasiswa Ilmu Komputer
+          Fresh graduate Ilmu Komputer
         </p>
 
         <!-- Contact Info -->
