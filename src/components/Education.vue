@@ -13,9 +13,12 @@
         <div v-intersect class="lg:w-1/2 fade-up">
           <h2 class="section-title">Tentang Saya</h2>
           <p class="section-text">
-            Halo! Saya Bayyinahtun Dwi Sumatri, seorang Fresh graduate Ilmu Komputer. Saya tertarik pada analisis data,
-            pengembangan sistem berbasis AI, serta membangun solusi yang berdampak.
-            Saya senang belajar dan mengembangkan skill melalui proyek nyata.
+                Halo! Saya Bayyinahtun Dwi Sumatri, Fresh Graduate Ilmu Komputer Universitas Halu Oleo
+    dengan minat pada pengolahan data, administrasi, dan teknologi. Saya memiliki pengalaman
+    dalam pengelolaan dan verifikasi data, machine learning, administrasi dokumen, penyusunan laporan, serta
+    riset dan pengolahan informasi. Saya memiliki kemampuan menggunakan Microsoft Office,
+    Google Workspace, dan berbagai tools pengolahan data, serta senang belajar dan
+    mengembangkan keterampilan melalui pengalaman kerja dan proyek nyata.
           </p>
         </div>
 

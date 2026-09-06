@@ -35,15 +35,15 @@
           Bayyinahtun Dwi Sumatri
         </h1>
         <p class="text-3xl text-white font-medium mb-6">
-          Fresh graduate Ilmu Komputer
+          Fresh Graduate Ilmu Komputer
         </p>
 
         <!-- Contact Info -->
         <div class="flex flex-wrap gap-4 text-white text-lg font-medium mt-4">
-          <a href="mailto:bynthdwi@gmail.com" class="neon-link">Email</a>
+          <a href="mailto:dwisumatri17@gmail.com" class="neon-link">Email</a>
           <span>|</span>
           <a
-            href="https://www.instagram.com/baywithmi/"
+            href="https://www.instagram.com/sky.mi17/"
             target="_blank"
             class="neon-link"
             >Instagram</a
