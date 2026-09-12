@@ -225,6 +225,41 @@
 
     </div>
   </section>
+
+  <section id="research" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-navy text-center mb-12">
+        Riset dan Karya Ilmiah
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <article class="research-card">
+          <h3 class="research-title">
+            Deteksi Ketersediaan Parkir Menggunakan Citra Video Berbasis CNN pada YOLO11
+          </h3>
+
+          <p class="research-desc">
+            Penelitian skripsi mengenai deteksi ketersediaan slot parkir menggunakan YOLO11 berbasis citra video secara real-time dan antarmuka web
+          </p>
+          <a href="https://ejournal.catursakti.ac.id/index.php/simtek/article/view/1752" target="_blank" class="project-link" rel="noopener noreferrer">Lihat Karya →</a>
+        </article>
+
+        <article class="research-card">
+          <h3 class="research-title">
+            Inovasi Digital Pengolahan Sampah Rumah Tangga (RECLAIM): Deteksi Otomatis dan Rekomendasi Pengolahan Berbasis Kecerdasan Buatan
+          </h3>
+
+          <p class="research-desc">
+            Karya opini ilmiah mengenai pemanfaatan kecerdasan buatan untuk mendukung pengelolaan sampah rumah tangga melalui aplikasi yang terintegrasi
+          </p>
+
+          <a href="https://drive.google.com/file/d/1nYKzg7ph0GXqXK0f_JTzm1D-DiubsNjj/view?usp=sharing" target="_blank" class="project-link" rel="noopener noreferrer">Lihat Karya →</a>
+        </article>
+      </div>
+
+    </div>
+
+  </section>
 </template>
 
 <script>
@@ -309,6 +344,15 @@ export default {
           technologies: ['Streamlit', 'RAG', 'NLP']
         },
 
+        {
+          category: 'Web Development',
+          title: 'Website Portofolio',
+          description:
+            'Website portofolio pribadi yang dikembangkan untuk menampilkan profil, pendidikan, keahlian, pengalaman, dan proyek secara terstruktur. Website ini dibangun menggunakan Vue.js dan Tailwind CSS serta dipublikasikan melalui GitHub Pages.',
+          github: 'https://github.com/skzfr17/bayyinahtun.github.io',
+          technologies: ['Vue.js', 'Vite', 'Tailwind CSS', 'GitHub Pages']
+        },
+
       // Social Media & Content
       {
         category: 'Social Media & Content',
@@ -369,6 +413,32 @@ export default {
   background: #3b82f6;
   bottom: -180px;
   right: -180px;
+}
+
+.research-card {
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.research-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 0 18px rgba(59, 130, 246, 0.2);
+}
+
+.research-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+}
+
+.research-desc {
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
 }
 
 /* Project Category */

@@ -47,6 +47,7 @@ import sertifikat3 from '@/assets/posters/sertifikat_3.png'
 import sertifikat4 from '@/assets/posters/sertifikat_4.png'
 import sertifikat5 from '@/assets/posters/sertifikat_5.png'
 import sertifikat7 from '@/assets/posters/sertifikat_7.png'
+import sertifikat8 from '@/assets/posters/sertifikat_8.png'
 
 const certificates = [
   {
@@ -84,7 +85,13 @@ const certificates = [
     year: '2025',
     image: sertifikat5,
     link: 'https://drive.google.com/file/d/1Qqgh_ItHtDQFHiLXZ9GIVwZT0mRaD0Kh/view?usp=sharing'
-  }
+  },
+  {
+    title: 'Dicoding Academy: Belajar Dasar Pemrograman Web',
+    year: '2026',
+    image: sertifikat8,
+    link: 'https://drive.google.com/file/d/1p0mSIeIEnd2-FF4D6CYxSHcO_s7Di_hz/view?usp=sharing'
+  },
 ]
 </script>
 
