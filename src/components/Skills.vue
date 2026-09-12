@@ -36,11 +36,12 @@
           </h3>
 
           <ul class="space-y-4 inline-block md:block text-left mb-8">
-            <li class="bullet-item">Manajemen waktu yang baik</li>
-            <li class="bullet-item">Disiplin dan bertanggung jawab</li>
+            <li class="bullet-item">Teliti dan berorientasi pada detail</li>
+            <li class="bullet-item">Mampu mengolah dan menganalisis data</li>
+            <li class="bullet-item">Mampu melakukan riset dan menyusun laporan</li>
+            <li class="bullet-item">Manajemen waktu dan penentuan prioritas</li>
             <li class="bullet-item">Mampu bekerja secara mandiri maupun dalam tim</li>
-            <li class="bullet-item">Adaptif dan cepat belajar</li>
-            <li class="bullet-item">Teliti dalam mengerjakan tugas</li>
+            <li class="bullet-item">Memiliki kemauan belajar yang tinggi</li>
           </ul>
 
           <!-- Language -->
@@ -50,7 +51,7 @@
 
           <ul class="space-y-4 inline-block md:block text-left">
             <li class="bullet-item">Bahasa Indonesia (Fluent)</li>
-            <li class="bullet-item">Bahasa Inggris (Intermediate)</li>
+            <li class="bullet-item">Bahasa Inggris (Basic)</li>
           </ul>
         </div>
 
@@ -66,11 +67,12 @@
           <ul class="space-y-4 inline-block md:block text-left">
             <li class="bullet-item">Microsoft Office (Word, Excel, PowerPoint) - Intermediate</li>
             <li class="bullet-item">Python - Intermediate</li>
-            <li class="bullet-item">FastAPI & Flask - Intermediate</li>
-            <li class="bullet-item">Vue.js - Beginner</li>
-            <li class="bullet-item">Tailwind CSS - Beginner</li>
             <li class="bullet-item">MySQL & SQLite - Intermediate</li>
+            <li class="bullet-item">R - Basic</li>
             <li class="bullet-item">Git & GitHub - Intermediate</li>
+            <li class="bullet-item">FastAPI & Flask - Intermediate</li>
+            <li class="bullet-item">Vue.js, HTML, CSS & JavaScript — Basic</li>
+            <li class="bullet-item">Canva - Basic</li>
           </ul>
         </div>
 

@@ -421,6 +421,9 @@ export default {
   border-radius: 1rem;
   padding: 2rem;
   transition: all 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .research-card:hover {
