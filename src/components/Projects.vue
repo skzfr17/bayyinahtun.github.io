@@ -323,6 +323,15 @@ export default {
           github: 'https://github.com/skzfr17/sales-data-analysis/tree/main',
           technologies: ['Python', 'Pandas', 'EDA', 'Data Analysis']
         },
+
+        {
+          category: 'Data Science & Data Analysis',
+          title: 'Training Industry Research & Competitor Analysis',
+          description:
+          'Melakukan riset industri pelatihan dan analisis kompetitor menggunakan Google Sheets. Mengembangkan tabel dinamis dan visualisasi data untuk merangkum hasil riset, mengevaluasi keunggulan dan kelemahan kompetitor, serta menyusun rekomendasi strategis untuk pengembangan program pelatihan Amazain.',
+          github: 'https://docs.google.com/spreadsheets/d/1Ryu5YvtCfu0kTvFmK3qLIPDvDJLZkofysr4HZR_81Bo/edit?usp=sharing',
+          technologies: ['Google Sheets', 'Data Analysis', 'Competitor Research']
+        },
       
       // Web Development dan Aplikasi Web
         

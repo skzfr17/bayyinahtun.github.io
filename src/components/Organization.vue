@@ -185,7 +185,21 @@ export default {
             'Melakukan verifikasi kesesuaian mitra dengan kebutuhan klien serta memastikan keakuratan dan kelengkapan data.'
           ]
 
+        },
+
+        {
+          name: 'Intern',
+          company: 'PT. Amazain Training and Consulting',
+          period: 'September 2026 - Sekarang',
+          role: 'Research & Development',
+          description: [
+            'Menyusun silabus dan proposal program pelatihan. ',
+            'Melakukan riset dan analisis kompetitor sebagai bahan pertimbangan dalam pengembangan program pelatihan.',
+            'Membantu menyusun dan mengatur jadwal kegiatan pelatihan.',
+            'Melakukan riset dan analisis kebutuhan pasar untuk mengidentifikasi peluang pengembangan program pelatihan.'
+          ]
         }
+
 
       ]
     }
